@@ -31,15 +31,35 @@
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 0 10px #ffec99;
       letter-spacing: 1px;
       transition: color 0.3s ease-in-out;
+      top : 15px;
      }
 
+#mute-btn {
+  padding: 10px 20px;
+  font-size: 25px; 
+  font-weight: bold;
+  background-color:transparent;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: -20px;
+  margin-left: 93%;
+  transition: background-color 0.3s;
+}
 
 
 
-    .scoreboard, #turnDisplay {
+    .scoreboard{
+         margin-bottom: 1rem;
+      font-size: 1.5rem;
+      color: #0a0a0a;
+      margin-top: none;
+
+    } #turnDisplay {
       margin-bottom: 1rem;
       font-size: 1.5rem;
       color: #0a0a0a;
+     
     }
 
     .container {
@@ -136,7 +156,7 @@
 
     @media (max-width: 768px) {
   h1 {
-    margin-top: -200px;
+  
     font-size: 8vmin;
     line-height: 1.2;
     padding: 0 1rem;
@@ -145,6 +165,7 @@
 
   .container{
     align-items: center;
+    left: 6%;
   }
 
   .game {
@@ -154,8 +175,8 @@
   }
 
   .box {
-    height: 28%;
-    width: 28%;
+    height: 25%;
+    width: 25%;
     font-size: 9vmin;
   margin-left: 10px;
   }
